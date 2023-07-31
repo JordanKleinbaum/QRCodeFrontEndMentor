@@ -8,10 +8,8 @@
 
 body {
   background-color: hsl(212, 45%, 89%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-content: center;
 }
 
 .card {
